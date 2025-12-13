@@ -1,4 +1,4 @@
-### BIST Analyzer (borsatahmin-java-team)
+### BIST Analyzer (borsatahmin-java)
 
 An experimental Java application that downloads market data for Borsa Istanbul (BIST) tickers, computes technical indicators, and runs basic machine‑learning models (LSTM and XGBoost) to provide a consolidated analysis report per ticker.
 
@@ -75,7 +75,7 @@ gradlew.bat installDist
 Then run the installed distribution (adjust path for your OS):
 
 ```
-build/install/borsatahmin-java-team/bin/borsatahmin-java-team
+build/install/borsatahmin-java-team/bin/borsatahmin-java
 ```
 
 #### Configuring Tickers
