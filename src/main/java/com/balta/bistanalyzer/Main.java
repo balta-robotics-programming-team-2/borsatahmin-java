@@ -1,8 +1,10 @@
+package com.balta.bistanalyzer;
+
 import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    static void main() {
 
         AI ai = new AI();
 

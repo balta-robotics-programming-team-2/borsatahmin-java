@@ -1,3 +1,5 @@
+package com.balta.bistanalyzer;
+
 import java.util.Random;
 
 public class Stock {
@@ -21,16 +23,16 @@ public class Stock {
 
         switch (scenario) {
             case "HIGH_UP":
-                change = random.nextInt(15) + 10;
+                change = random.nextInt(15) - 3;
                 break;
             case "UP":
-                change = random.nextInt(6) + 3;
+                change = random.nextInt(6) - 1;
                 break;
             case "DOWN":
-                change = -(random.nextInt(6) + 3);
+                change = -(random.nextInt(6) + 1);
                 break;
             case "HIGH_DOWN":
-                change = -(random.nextInt(15) + 10);
+                change = -(random.nextInt(15) + 3);
                 break;
         }
 
